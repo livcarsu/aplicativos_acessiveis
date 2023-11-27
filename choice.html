@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleC.css">
+    <title>ChoiceWorks</title>
+</head>
+<header>
+    <h1>Choiceworks App</h1>
+  </header>
+<body>
+
+      
+        <div id="gallery">
+          <img src="./assets/img1C.jpg" alt="Screenshot 1">
+          <img src="./assets/img2C.webp" alt="Screenshot 2">
+          <img src="./assets/img3C.webp" alt="Screenshot 3">
+          <img src="./assets/img4C.webp" alt="Screenshot 4">
+          <img src="./assets/img5C.webp" alt="Screenshot 5">
+        </div>
+      
+        <div id="app-features">
+           <center> <h2>RECURSOS</h2></center>
+            <ul>
+                <li class="feature-box">Acesso completo e ilimitado a todos os quatro tipos de quadros: Programação, Espera, Emoções e Escala de Emoções</li>
+                <li class="feature-box">Biblioteca de Imagens pré-carregada com mais de 180 imagens e áudio</li>
+                <li class="feature-box">Adicione suas próprias imagens e grave seu próprio áudio para personalização ilimitada</li>
+                <li class="feature-box">Anexe vídeos a qualquer imagem do quadro</li>
+                <li class="feature-box">Crie facilmente perfis para personalizar e gerenciar vários usuários</li>
+                <li class="feature-box">Salve um número ilimitado de quadros para várias crianças ou diferentes rotinas</li>
+                <li class="feature-box">Fale os quadros em voz alta com voz de criança ou adulto</li>
+                <li class="feature-box">Compartilhe quadros por e-mail, pelo aplicativo Arquivos ou iTunes com outros usuários do aplicativo Choiceworks</li>
+                <li class="feature-box">Capacidade de imprimir quadros ou salvar como PDF</li>
+                <li class="feature-box">Opções avançadas de compartilhamento</li>
+                <li class="feature-box">Temas personalizados</li>
+                <li class="feature-box">Assistente de Biblioteca</li>
+                <li class="feature-box">Sons de temporizador personalizados</li>
+            </ul>
+          </div>
+
+        
+        <center>  <a id="download-button" href="https://apps.apple.com/us/app/choiceworks/id486210964" target="_blank">DOWNLOAD</a></center>
+        <br><br><br>
+
+          <script>
+            document.getElementById('show-more').addEventListener('click', function() {
+              document.getElementById('app-features').classList.toggle('expanded');
+              this.innerHTML = this.innerHTML === 'Mostrar Mais' ? 'Mostrar Menos' : 'Mostrar Mais';
+            });
+          </script>
+      
+        
+</body>
+</html>

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Josefin+Sans:wght@200;400&family=Pixelify+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.logoT{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    background-color: #858AE3;
+    height: max-content;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+.logo{
+    width: 50px;
+    margin-right: 15px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    
+}
+
+li{
+    list-style: none;
+}
+
+header a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#resumo{
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    justify-content: space-between;
+    margin: 60px 10px 0 40px;
+    font-size: 18px;
+}
+
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    width: 590px;
+    
+}
+
+.img{
+    width: 500px;
+    padding: 0%;
+}
+
+
+
+#aplicativos {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#aplicativos > h1{
+    margin-bottom: 30px;
+}
+
+.appsCards > a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.appsCards{
+    display: flex;   
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    width: 300px;
+    height: 223px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card:hover {
+    border: 2px solid #ccc;
+    width: 310px;
+    height: 225px;
+    
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h2 {
+    margin: 10px 0;
+}
+
+#aprenda {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#aprenda > h1{
+    margin-bottom: 50px;
+}
+
+.videos{
+    display: flex;   
+    justify-content: space-around;
+    padding: 20px;
+}
+
+footer{
+    display: flex;
+    margin-top: 50px;
+    height: 20px;
+    background-color: #858AE3;
+    color: #fff;
+    justify-content: center;  
+    align-items: center;  
+    padding: 4px;
+}
+
+
+

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Josefin+Sans:wght@200;400&family=Pixelify+Sans&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+  header {
+    background-color: #858AE3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #gallery {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+
+  #gallery img {
+    width: 200px;
+    height: 210px;
+    object-fit: cover;
+    border: 2px solid #858AE3;
+    border-radius: 8px;
+    margin: 5px;
+  }
+
+ 
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+  }
+
+
+
+  h2 {
+    color: #858AE3;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+
+ 
+  #download-button {
+    margin: 20px auto;
+    width: 90px;
+    padding: 15px 30px;
+    background-color: #858AE3;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  #download-button:hover {
+    background-color: #6e72c4;
+  }
+
+  #app-features {
+    margin: 20px;
+    text-align: left;
+  }
+
+  .feature-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+
+  li {
+    flex-basis: calc(50% - 20px); /* 50% width with margin */
+  }
+
+  
